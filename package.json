@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "ts-node": "^10.9.1",
-    "xrpl": "^2.8.0-beta.0"
+    "xrpl": "^2.8.0-beta.0",
+    "xumm-sdk": "^1.7.6"
   }
 }
