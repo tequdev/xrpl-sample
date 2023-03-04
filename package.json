@@ -13,6 +13,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "bignumber.js": "^9.1.1",
     "ts-node": "^10.9.1",
     "xrpl": "^2.8.0-beta.0",
     "xumm-sdk": "^1.7.6"
