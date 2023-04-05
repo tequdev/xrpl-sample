@@ -16,7 +16,7 @@
     "bignumber.js": "^9.1.1",
     "five-bells-condition": "^5.0.1",
     "ts-node": "^10.9.1",
-    "xrpl": "^2.8.0-beta.0",
+    "xrpl": "2.7.0-beta.3",
     "xumm-sdk": "^1.7.6"
   }
 }
