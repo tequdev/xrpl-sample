@@ -27,6 +27,52 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@transia/ripple-address-codec@^4.2.6-alpha.0":
+  version "4.2.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/@transia/ripple-address-codec/-/ripple-address-codec-4.2.6-alpha.0.tgz#f664d66352393cc4f6558e059bb575b5059ad269"
+  integrity sha512-tzQ8JvH3bwzhVS50EkJTcOPY3RI1RC1R1QUQqfsfDoT4M2lyD5UtuKaTRncNIlTfgNLUWbF3wp4+Nt6OY+uvAg==
+  dependencies:
+    base-x "^3.0.9"
+    create-hash "^1.1.2"
+
+"@transia/ripple-binary-codec@^1.4.4-alpha.3":
+  version "1.4.4-alpha.3"
+  resolved "https://registry.yarnpkg.com/@transia/ripple-binary-codec/-/ripple-binary-codec-1.4.4-alpha.3.tgz#453ae5662b550bd390c58a8d300b19ad5ad7ebbd"
+  integrity sha512-yY6LNFsXX9oofsF77kwwP0mZkWA7oWt3hoMNKCQjqv8BQlChcJBUCUBkYL+HkTkoFFwP3qwZuRBShpsgkuTUZg==
+  dependencies:
+    "@transia/ripple-address-codec" "^4.2.6-alpha.0"
+    assert "^2.0.0"
+    big-integer "^1.6.48"
+    buffer "5.6.0"
+    create-hash "^1.2.0"
+    decimal.js "^10.2.0"
+
+"@transia/ripple-keypairs@^1.1.6-alpha.3":
+  version "1.1.6-alpha.3"
+  resolved "https://registry.yarnpkg.com/@transia/ripple-keypairs/-/ripple-keypairs-1.1.6-alpha.3.tgz#4ba0cc06f5f13a559605c7d82af2a6974e3efd35"
+  integrity sha512-HkTS22+/Nlk5YXCxNYLFdn4NOAJuMhiwarEAaItVuAv5sHj+fBCy2s6B5dS7I2U2C1s7OCxDbWtKT9Q6FZU8Fw==
+  dependencies:
+    "@transia/ripple-address-codec" "^4.2.6-alpha.0"
+    bn.js "^5.1.1"
+    brorand "^1.0.5"
+    elliptic "^6.5.4"
+    hash.js "^1.0.3"
+
+"@transia/xrpl@^2.7.1-alpha.6":
+  version "2.7.1-alpha.6"
+  resolved "https://registry.yarnpkg.com/@transia/xrpl/-/xrpl-2.7.1-alpha.6.tgz#eb73a9cd3590fb43bd16e0513d185cc000b01bfd"
+  integrity sha512-13C6irZx5eV0/HczsXGW2DDwZXIAWMfdfoVTat9/VWFOKAeIsIehS5boN236GDJMMHC4/FumpbMIuTp0TWAAXA==
+  dependencies:
+    "@transia/ripple-address-codec" "^4.2.6-alpha.0"
+    "@transia/ripple-binary-codec" "^1.4.4-alpha.3"
+    "@transia/ripple-keypairs" "^1.1.6-alpha.3"
+    bignumber.js "^9.0.0"
+    bip32 "^2.0.6"
+    bip39 "^3.0.4"
+    https-proxy-agent "^5.0.0"
+    lodash "^4.17.4"
+    ws "^8.2.2"
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.9.tgz"
